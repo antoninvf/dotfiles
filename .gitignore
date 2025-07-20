@@ -1,0 +1,20 @@
+# Inverted gitignore, to only allow certain configs
+/*
+
+# Files
+!.gitignore
+!.zshrc
+!vesktop/settings.json
+!micro/settings.json
+!micro/bindings.json
+
+# Directories
+!kitty/
+!Thunar/
+!hypr/
+!flameshot/
+!vesktop/themes
+!dunst/
+!wpaperd/
+!waybar/
+!xdg-desktop-portal/

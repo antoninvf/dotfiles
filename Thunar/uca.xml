@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+<action>
+	<icon>kitty</icon>
+	<name>Open Kitty Here</name>
+	<submenu></submenu>
+	<unique-id>1698329798470833-1</unique-id>
+	<command>kitty %f</command>
+	<description>cmere kitty kitty</description>
+	<range></range>
+	<patterns>*</patterns>
+	<startup-notify/>
+	<directories/>
+</action>
+<action>
+	<icon>send-to</icon>
+	<name>Send via LocalSend</name>
+	<submenu></submenu>
+	<unique-id>1753050573547048-1</unique-id>
+	<command>localsend --send %F</command>
+	<description>Send a file using LocalSend</description>
+	<range>*</range>
+	<patterns>*</patterns>
+	<audio-files/>
+	<image-files/>
+	<other-files/>
+	<text-files/>
+	<video-files/>
+</action>
+</actions>
